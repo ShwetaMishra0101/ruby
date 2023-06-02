@@ -16,6 +16,20 @@
 
 # print methods 
 
-print "this random"
-print " will continue the same "
+# print "this random"
+# print " will continue the same "
+
+
+# p method 
+
+# remind the this is string 
+
+p "this is a string"
+
+p 5
+p "5"
+
+puts "hi there\n line break"
+
+p "hi there\n line break"
 
