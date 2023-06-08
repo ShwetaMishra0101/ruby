@@ -44,7 +44,7 @@
             "Gadget #{@production_number} has the username #{@username}  #{self.class} class and it has the ID #{self.object_id}."
         end
         # intence method
-        def username = (new_username)
+        def username=(new_username)
             @username = new_username
 
         end
@@ -62,10 +62,10 @@ end
 
     phone = Gadget.new 
     
-    laptop = Gadget.new
+    p  phone.username 
     # p phone.@username
-    
-    p laptop
+  p  phone.username = ("ghgh")
+
     
     # p laptop.instance_variable    
     
