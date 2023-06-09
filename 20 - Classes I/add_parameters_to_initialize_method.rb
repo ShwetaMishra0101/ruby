@@ -1,7 +1,7 @@
 class Gadget
-    atter_writer :password
-    atter_reader :production_number
-    atter_accessor :username
+    attr_writer :password
+    attr_reader :production_number
+    attr_accessor :username
 
     def initialize(username,password)
         @username = username
@@ -19,9 +19,9 @@ g1 = Gadget.new("gghfhfh12","prog123")
 
 g2 = Gedget.new("missprogrammer", "bestpasswordever")
 g3 = Gadget.new("sap", "topsecret")
-p g1
+p g1.production_number
 
 # also we can change the value of username and also password
 
-
+p g1.username
 
