@@ -47,4 +47,4 @@ p phone
 
 p laptop
 
-p laptop.instance_variable        
+p laptop.instance_variable
