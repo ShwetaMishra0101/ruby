@@ -12,7 +12,7 @@ attr_accessor :first_name, :last_name, :username, :email, :password
 def initialize(first_name,last_name,username,email,password)
     @first_name = first_name
     @last_name = last_name
-    @Username= username
+    @Username = username
     @email = email
     @password = password
 end
